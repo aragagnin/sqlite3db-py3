@@ -2,8 +2,9 @@ Fork of sqlite3dbm
 ==================
 
 This is a fork of the python package **sqlite3dbm** (https://github.com/Yelp/sqlite3dbm).
-Unfortunately the original author is not responding anymore to its github issues.
-In this repo I fixed some `python3` compatibilities issues due to the following error:
+
+It is ten years now (2020) that the original author ([Yelp](https://github.com/Yelp)) isn't updating or replying to github issues. For this reason in this I forked it and in this repo I fixed some `python3` compatibilities issues due to the following error:
+
 
 ```
     ERROR: Command errored out with exit status 1:
