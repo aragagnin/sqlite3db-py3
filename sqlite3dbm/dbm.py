@@ -194,7 +194,7 @@ class SqliteMap(object):
     This is not remotely threadsafe.
     """
 
-    def __init__(self, path, flag='r', mode=0666):
+    def __init__(self, path, flag='r', mode='666'):
         """Create an dict backed by a SQLite DB at `sqlite_db_path`.
 
         See `open` for explanation of the parameters.
