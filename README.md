@@ -1,7 +1,7 @@
 Fork of sqlite3dbm
 ==================
 
-This is a fork of https://github.com/Yelp/sqlite3dbm where I fixed some `python3` compatibilities issues due to the following error:
+This is a fork of the python package **sqlite3dbm** (https://github.com/Yelp/sqlite3dbm). In this repo I fixed some `python3` compatibilities issues due to the following error:
 
 ```
     ERROR: Command errored out with exit status 1:
@@ -22,8 +22,15 @@ This is a fork of https://github.com/Yelp/sqlite3dbm where I fixed some `python3
 ERROR: Command errored out with exit status 1: python setup.py egg_info Check the logs for full command output.
 ```
 
+Install
+-------
+
 You can install this fork of the `sqlite3dbm` package with the following command:
 
 ```python3 -mpip install git+https://github.com/aragagnin/sqlite3dbm/```
+
+
+Documentation
+-------
 
 To access the documentation and to check all other issues please see the homepage of the main project:  https://github.com/Yelp/sqlite3dbm
