@@ -474,7 +474,7 @@ class SqliteMap(object):
         """Iterate over the keys of D.  Consistent with dict."""
         return self.iterkeys()
 
-def open(filename, flag='r', mode=0666):
+def open(filename, flag='r', mode='0666'):
     """Open a database and return a SqliteMap object.
 
     The `filename` argument is the path to the database file.
