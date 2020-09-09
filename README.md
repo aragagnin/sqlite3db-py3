@@ -29,7 +29,7 @@ Install
 
 You can install this fork of the `sqlite3dbm` package with the following command:
 
-```python3 -mpip install git+https://github.com/aragagnin/sqlite3dbm/```
+```python3 -mpip install git+https://github.com/aragagnin/sqlite3dbm-py3/```
 
 
 Documentation
